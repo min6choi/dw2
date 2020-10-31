@@ -37,8 +37,10 @@ label.title{
  margin: auto;
 }
 
-.mySlides1{
- display: none;
+.mySlides1 img {
+ height: auto;
+ background-size: cover;
+ background-position : center center;
 }
 
 .text {
@@ -227,4 +229,8 @@ a:active {
     background-color: transparent;
 }
 
+@media
+only screen and (max-width:738px) {
+    
+}
 
