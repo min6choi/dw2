@@ -31,17 +31,19 @@ label.title{
 }
 
 .slideshow-container{
- max-width: 390px;
- max-height: 90vh;
- position: relative;
- margin: auto;
+    width: 370px;
+    max-height: 80vh;
+    position: relative;
+    margin: auto;
+}
+   
+
+.pic1-2 {
+    position: flex;
+    padding-top: 130px;
+    padding-bottom: 185px;
 }
 
-.mySlides1 img {
- height: auto;
- background-size: cover;
- background-position : center center;
-}
 
 .text {
     display: flex;
@@ -145,6 +147,12 @@ label.title{
     font-weight: bold;
     font-size: 13px;
     letter-spacing: 0em;
+}
+
+.pic2-1 {
+    position: flex;
+    padding-top: 130px;
+    padding-bottom: 185px;
 }
 
 .second-sub-title {
